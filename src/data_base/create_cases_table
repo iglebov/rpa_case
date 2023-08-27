@@ -1,0 +1,8 @@
+CREATE TABLE cases (
+case_name CHAR ( 20 ) PRIMARY KEY,
+judge VARCHAR ( 100 ) NULL,
+plaintiff VARCHAR ( 100 ) NULL,
+applicants TEXT [] NULL,
+third_parties TEXT [] NULL,
+other_parties TEXT [] NULL
+);
